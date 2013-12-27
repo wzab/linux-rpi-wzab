@@ -47,9 +47,7 @@ static struct snd_soc_dai_driver cs534x_dai = {
 		             SNDRV_PCM_RATE_48000 |
 		             SNDRV_PCM_RATE_88200 |
                              SNDRV_PCM_RATE_96000,
-		    .formats = SNDRV_PCM_FMTBIT_S24_LE |
-		               SNDRV_PCM_FMTBIT_S24_3LE |
-                               SNDRV_PCM_FMTBIT_S32_LE,
+		    .formats = SNDRV_PCM_FMTBIT_S32_LE,
 		    },
 };
 
